@@ -22,10 +22,10 @@ namespace Okqwii.Common.ExceptionHandler.Middleware
         }
 
         /// <summary>
-        /// Invokation 
+        /// Invokation sends exceptions to be handled
         /// </summary>
         /// <param name="httpContext">The HTTP Context</param>
-        /// <returns></returns>
+        /// <returns>Nothing</returns>
         public async Task InvokeAsync(HttpContext httpContext) {
         
             try
